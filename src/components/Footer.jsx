@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="wrap legal">
-        <span>© زرتسترا · {STATS.posts.toLocaleString("fa-IR")} نوشته از {STATS.since}</span>
+        <span>© علی کبیری · {STATS.posts.toLocaleString("fa-IR")} نوشته از {STATS.since}</span>
         <nav aria-label="پیوندها" className="legal-nav">
           <Link to="/archive">نوشته‌ها</Link>
           <Link to="/about">درباره</Link>

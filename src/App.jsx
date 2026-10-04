@@ -12,7 +12,7 @@ import useRipple from "./useRipple";
 function titleFor(path) {
   if (path === "/") return "زرتسترا | وب‌لاگ شخصی";
   if (path === "/archive") return "نوشته‌ها | زرتسترا";
-  if (path === "/about") return "درباره | زرتسترا";
+  if (path === "/about") return "درباره علی کبیری | زرتسترا";
   if (path.startsWith("/post/")) {
     const p = byId(path.slice(6));
     if (!p) return "پیدا نشد | زرتسترا";
